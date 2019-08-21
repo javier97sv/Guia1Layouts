@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">LayoutsItents</string>
+    <string name="app_name">Guía 1 - Lab. DM</string>
+    <string name="tituloMain">Mi primera guía</string>
+    <string name="msgCalcu">1+1\n2</string>
+    <string name="msgLogin">Ingrese sus datos</string>
+    <string name="tituloDatos">Datos del alumno:</string>
+    <string name="nombre">Carlos Javier Cañénguez Martínez</string>
+    <string name="codigo">CM16-I04-001</string>
+    <string name="correlativo">01</string>
 </resources>

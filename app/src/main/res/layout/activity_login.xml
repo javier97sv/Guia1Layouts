@@ -5,48 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Login">
 
     <TextView
-        android:text="@string/tituloMain"
+        android:text="@string/msgLogin"
         android:textSize="30sp"
-        android:textStyle="bold"
         android:textAlignment="center"
         android:layout_gravity="center"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="40dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/btnCalculadora"
-        android:layout_marginLeft="70dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="70dp"
-        android:layout_width="match_parent"
-        android:text="CALCULADORA"
-        android:layout_height="wrap_content" />}
 
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/btnFormulario"
+    <EditText
+        android:hint="Correo electrónico"
+        android:layout_marginBottom="25dp"
         android:layout_marginLeft="70dp"
-        android:layout_marginBottom="20dp"
         android:layout_marginRight="70dp"
         android:layout_width="match_parent"
-        android:text="FORMULARIO LOGIN"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Contraseña"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
         android:layout_gravity="center"
-        android:id="@+id/btnDatos"
+        android:layout_marginBottom="150dp"
         android:layout_marginLeft="70dp"
-        android:layout_marginBottom="20dp"
         android:layout_marginRight="70dp"
-        android:layout_width="match_parent"
-        android:text="DATOS"
+        android:layout_width="fill_parent"
+        android:text="Iniciar sesión"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnMenu"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="fill_parent"
+        android:text="MENU PRINCIPAL"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
